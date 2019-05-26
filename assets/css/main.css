@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fc4a1a;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7b733, #fc4a1a);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* Fonts */
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
+/* Navbar */
+
+header {
+    width: 100%;
+    position: relative;
+    background-color: #141414;
+}
+
+header nav {
+    background: #141414;
+    overflow: hidden;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    float: left;
+}
+
+header nav ul li a {
+    padding: 10px 20px;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+img {
+    width: 80%;
+    height: 80%;
+}
+
+/* Log In */
+
+.container-login {
+    width: 30%;
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
+.container-form {
+    padding: 16px;
+}
+
+.card {
+    border: 2px solid #f1f1f1;
+    border-radius: 5%;
+    background-color: #fff;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.btn-signin {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.btn-primary {
+    background-color: #4CAF50;
+    cursor: pointer;
+    text-decoration: none;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    color: white;
+    text-align: center;
+}
+
+.img-thumbnail {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+.img-logo {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.forgot {
+    text-decoration: none;
+}

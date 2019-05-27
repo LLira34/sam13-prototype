@@ -123,22 +123,26 @@
                     <div class="tab-pane fade show active" id="home">
                         <div class="container">
                             <form>
-                                <fieldset>
-                                    <legend>Gastos internos</legend>
-                                    
-                                    <div class="form-group">
-                                        <label for="exampleInputEmail1">Email address</label>
-                                        <input type="email" class="form-control" id="exampleInputEmail1"
-                                            aria-describedby="emailHelp" placeholder="Enter email">
+                                <legend>Gastos internos</legend>
+                                <div class="form-group row">
+                                    <label for="staticEmail" class="col-sm-2 col-form-label">Nombre</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="staticEmail" placeholder="Nombre">
                                     </div>
-                                    <div class="form-group">
-                                        <label for="exampleInputPassword1">Password</label>
-                                        <input type="password" class="form-control" id="exampleInputPassword1"
-                                            placeholder="Password">
+                                </div>
+                                <div class="form-group row">
+                                    <label for="unitPrice" class="col-sm-2 col-form-label">Precio unitario</label>
+                                    <div class="col-sm-10">
+                                        <input type="number" class="form-control" id="unitPrice"
+                                            placeholder="Precio unitario">
                                     </div>
-                                    <div class="form-group">
-                                        <label for="exampleSelect1">Example select</label>
-                                        <select class="form-control" id="exampleSelect1">
+                                </div>
+                                
+                                <div class="form-group row">
+                                    <label for="cmbOptions" class="col-sm-2 col-form-label">Seleccciona una
+                                        opción</label>
+                                    <div class="col-sm-10">
+                                        <select class="form-control" id="cmbOptions">
                                             <option>1</option>
                                             <option>2</option>
                                             <option>3</option>
@@ -146,31 +150,52 @@
                                             <option>5</option>
                                         </select>
                                     </div>
-                                    <div class="form-group">
-                                        <label for="exampleSelect2">Example multiple select</label>
-                                        <select multiple="" class="form-control" id="exampleSelect2">
-                                            <option>1</option>
-                                            <option>2</option>
-                                            <option>3</option>
-                                            <option>4</option>
-                                            <option>5</option>
-                                        </select>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="exampleTextarea">Example textarea</label>
-                                        <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
-                                    </div>
-                                    <button type="submit" class="btn btn-primary">Submit</button>
-                                </fieldset>
+                                </div>
+
+                                <button type="button" class="btn btn-success">Aceptar</button>
                             </form>
                         </div>
                     </div>
                     <div class="tab-pane fade" id="profile">
-                        <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid.
-                            Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan
-                            four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft
-                            beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda
-                            labore aesthetic magna delectus mollit.</p>
+                        <div class="container">
+                            <form>
+                                <legend>Gastos externos</legend>
+                                <div class="form-group row">
+                                    <label for="staticEmail" class="col-sm-2 col-form-label">Nombre</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="staticEmail" placeholder="Nombre">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="unitPrice" class="col-sm-2 col-form-label">Precio unitario</label>
+                                    <div class="col-sm-10">
+                                        <input type="number" class="form-control" id="unitPrice"
+                                            placeholder="Precio unitario">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="unitPrice" class="col-sm-2 col-form-label">Cantidad</label>
+                                    <div class="col-sm-10">
+                                        <input type="number" class="form-control" id="unitPrice" placeholder="Cantidad">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="cmbOptions" class="col-sm-2 col-form-label">Seleccciona una
+                                        opción</label>
+                                    <div class="col-sm-10">
+                                        <select class="form-control" id="cmbOptions">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <button type="button" class="btn btn-success">Aceptar</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>

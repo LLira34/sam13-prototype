@@ -28,33 +28,63 @@
     </header>
 
     <section>
-        <div class="container-login">
-            <div class="img-thumbnail">
-                <h1><b>Menu</b></h1>
-            </div>
+        <div class="row">
+            <div class="col">
+                <div class="container-login">
+                    <div class="img-thumbnail">
+                        <h1><b>Menu</b></h1>
+                    </div>
 
-            <form class="card" action="">
-                <div class="container-form">
-                    <label for="username"><b>Type food</b></label>
-                    <select class="form-control" id="cmbOptions">
-                        <option>Drinks</option>
-                        <option>Dish</option>
-                        
-                    </select>
+                    <form class="card" action="">
+                        <div class="container-form">
+                            <label for="username"><b>Tipo de comida</b></label>
+                            <select class="form-control" id="cmbOptions">
+                                <option>Bebidas</option>
+                                <option>Paltillos</option>
 
-                    <label for="username"><b>Name</b></label>
-                    <input type="text" placeholder="name" name="username" required>
+                            </select>
 
-                    <label for="username"><b>Price</b></label>
-                    <input type="text" placeholder="price" name="username" required>
+                            <label for="username"><b>Nombre</b></label>
+                            <input type="text" placeholder="name" name="username" required>
 
-                    <label for="username"><b>Description</b></label>
-                    <input type="text" placeholder="description" name="username" required>
+                            <label for="username"><b>Precio</b></label>
+                            <input type="text" placeholder="price" name="username" required>
 
-                    <button class="btn-signin" type="submit"><b>Save</b></button>
+                            <label for="username"><b>Descripcion</b></label>
+                            <input type="text" placeholder="description" name="username" required>
+
+                            <button class="btn-signin" type="submit"><b>Guardar</b></button>
+                        </div>
+                    </form>
                 </div>
-            </form>
+            </div>
+            <div class="col">
+                <div class="img-thumbnail">
+                    <h1><b>Lista de menu</b></h1>
+                </div>
+                <div class="">
+                    <table id="table">
+                        <tr>
+                            <th>Tipo</th>
+                            <th>Nombre</th>
+                            <th>Precio</th>
+                            <th>Descripcion</th>
+
+                        </tr>
+                        <tr>
+                            <td>Platillo</td>
+                            <td>Camarones</td>
+                            <td>$ 50.81</td>
+                            <td>Ricos</td>
+
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
         </div>
+
+
     </section>
 </body>
 

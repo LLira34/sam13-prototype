@@ -29,122 +29,130 @@
 
     <section>
         <div class="container-login">
-            <div class="img-thumbnail">
-                <h1><b>Suppliers</b></h1>
-            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="img-thumbnail">
+                        <h1><b>Proveedores</b></h1>
+                    </div>
 
-            <form class="card" action="">
-                <div class="container-form">
-                    <label for="username"><b>Company</b></label>
-                    <input type="text" placeholder="company name" name="username" required>
+                    <form class="card" action="">
+                        <div class="container-form">
+                            <label for="username"><b>Compañia</b></label>
+                            <input type="text" placeholder="company name" name="username" required>
 
-                    <label for="username"><b>Full name</b></label>
-                    <input type="text" placeholder="fullname" name="username" required>
+                            <label for="username"><b>Nombre completo</b></label>
+                            <input type="text" placeholder="fullname" name="username" required>
 
-                    <label for="username"><b>Address</b></label>
-                    <input type="text" placeholder="address" name="username" required>
-
-
-                    <label for="username"><b>Select state</b></label>
-                    <select class="form-control" id="cmbOptions">
-                        <option>Guanajuato</option>
-                        <option>Queretaro</option>
-                        <option>Jalisco</option>
-                        <option>Michoacan</option>
-                        <option>Guerrero</option>
-                        <option value="">Sinaloa</option>
-                    </select>
-
-                    <label for="username"><b>Select city</b></label>
-                    <select class="form-control" id="cmbOptions">
-                        <option>Dolores Hidalgo</option>
-                        <option>Guanajuato</option>
-                        <option>Leon</option>
-                        <option>Silao</option>
-                        <option>Irapuato</option>
-                    </select>
+                            <label for="username"><b>Direccion</b></label>
+                            <input type="text" placeholder="address" name="username" required>
 
 
-                    <label for="username"><b>Phone</b></label>
-                    <input type="number" placeholder="phone" name="username" required>
+                            <label for="username"><b>Selecciona estado</b></label>
+                            <select class="form-control" id="cmbOptions">
+                                <option>Guanajuato</option>
+                                <option>Queretaro</option>
+                                <option>Jalisco</option>
+                                <option>Michoacan</option>
+                                <option>Guerrero</option>
+                                <option value="">Sinaloa</option>
+                            </select>
 
-                    <label for="username"><b>Postal code</b></label>
-                    <input type="number" placeholder="postal code" name="username" required>
+                            <label for="username"><b>Seleciona ciudad</b></label>
+                            <select class="form-control" id="cmbOptions">
+                                <option>Dolores Hidalgo</option>
+                                <option>Guanajuato</option>
+                                <option>Leon</option>
+                                <option>Silao</option>
+                                <option>Irapuato</option>
+                            </select>
 
-                    <button class="btn-signin" type="submit"><b>Save</b></button>
+
+                            <label for="username"><b>Telefono</b></label>
+                            <input type="number" placeholder="phone" name="username" required>
+
+                            <label for="username"><b>Codigo postal</b></label>
+                            <input type="number" placeholder="postal code" name="username" required>
+
+                            <button class="btn-signin" type="submit"><b>Guardar</b></button>
+                        </div>
+                    </form>
                 </div>
-            </form>
+                <div class="col">
+                    <div class="img-thumbnail">
+                        <h1><b>Lista de proveedores</b></h1>
+                    </div>
+                    <div class="">
+                        <table id="table">
+                            <tr>
+                                <th>Company</th>
+                                <th>Fullname</th>
+                                <th>Address</th>
+                                <th>State</th>
+                                <th>City</th>
+                                <th>Phone</th>
+                                <th>Postal code</th>
+                            </tr>
+                            <tr>
+                                <td>Alfreds Futterkiste</td>
+                                <td>Maria Anders</td>
+                                <td>Av. Del norte 8</td>
+                                <td>Guanajuato</td>
+                                <td>San Diego</td>
+                                <td>428-123-6985</td>
+                                <td>37800</td>
+                            </tr>
+                            <tr>
+                                <td>Centro comercial Moctezuma</td>
+                                <td>Francisco Chang</td>
+                                <td>Av. Del norte 8</td>
+                                <td>Guanajuato</td>
+                                <td>San Diego</td>
+                                <td>428-123-6985</td>
+                                <td>37800</td>
+                            </tr>
+                            <tr>
+                                <td>Ernst Handel</td>
+                                <td>Roland Mendel</td>
+                                <td>Av. Del norte 8</td>
+                                <td>Guanajuato</td>
+                                <td>San Diego</td>
+                                <td>428-123-6985</td>
+                                <td>37800</td>
+                            </tr>
+                            <tr>
+                                <td>Island Trading</td>
+                                <td>Helen Bennett</td>
+                                <td>Av. Del norte 8</td>
+                                <td>Guanajuato</td>
+                                <td>San Diego</td>
+                                <td>428-123-6985</td>
+                                <td>37800</td>
+                            </tr>
+                            <tr>
+                                <td>Laughing Bacchus Winecellars</td>
+                                <td>Yoshi Tannamuri</td>
+                                <td>Av. Del norte 8</td>
+                                <td>Guanajuato</td>
+                                <td>San Diego</td>
+                                <td>428-123-6985</td>
+                                <td>37800</td>
+                            </tr>
+                            <tr>
+                                <td>Magazzini Alimentari Riuniti</td>
+                                <td>Giovanni Rovelli</td>
+                                <td>Av. Del norte 8</td>
+                                <td>Guanajuato</td>
+                                <td>San Diego</td>
+                                <td>428-123-6985</td>
+                                <td>37800</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
 
-            <div class="img-thumbnail">
-                <h1><b>Suppliers list</b></h1>
-            </div>
-            <div class="card">
-                <table class="table">
-                    <tr>
-                        <th>Company</th>
-                        <th>Fullname</th>
-                        <th>Address</th>
-                        <th>State</th>
-                        <th>City</th>
-                        <th>Phone</th>
-                        <th>Postal code</th>
-                    </tr>
-                    <tr>
-                        <td>Alfreds Futterkiste</td>
-                        <td>Maria Anders</td>
-                        <td>Av. Del norte 8</td>
-                        <td>Guanajuato</td>
-                        <td>San Diego</td>
-                        <td>428-123-6985</td>
-                        <td>37800</td>
-                    </tr>
-                    <tr>
-                        <td>Centro comercial Moctezuma</td>
-                        <td>Francisco Chang</td>
-                        <td>Av. Del norte 8</td>
-                        <td>Guanajuato</td>
-                        <td>San Diego</td>
-                        <td>428-123-6985</td>
-                        <td>37800</td>
-                    </tr>
-                    <tr>
-                        <td>Ernst Handel</td>
-                        <td>Roland Mendel</td>
-                        <td>Av. Del norte 8</td>
-                        <td>Guanajuato</td>
-                        <td>San Diego</td>
-                        <td>428-123-6985</td>
-                        <td>37800</td>
-                    </tr>
-                    <tr>
-                        <td>Island Trading</td>
-                        <td>Helen Bennett</td>
-                        <td>Av. Del norte 8</td>
-                        <td>Guanajuato</td>
-                        <td>San Diego</td>
-                        <td>428-123-6985</td>
-                        <td>37800</td>
-                    </tr>
-                    <tr>
-                        <td>Laughing Bacchus Winecellars</td>
-                        <td>Yoshi Tannamuri</td>
-                        <td>Av. Del norte 8</td>
-                        <td>Guanajuato</td>
-                        <td>San Diego</td>
-                        <td>428-123-6985</td>
-                        <td>37800</td>
-                    </tr>
-                    <tr>
-                        <td>Magazzini Alimentari Riuniti</td>
-                        <td>Giovanni Rovelli</td>
-                        <td>Av. Del norte 8</td>
-                        <td>Guanajuato</td>
-                        <td>San Diego</td>
-                        <td>428-123-6985</td>
-                        <td>37800</td>
-                    </tr>
-                </table>
-            </div>
+
+
 
         </div>
     </section>

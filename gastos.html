@@ -28,53 +28,61 @@
     </header>
 
     <section>
-        <div class="container-login">
-            <div class="img-thumbnail">
-                <h1><b>Suppliers</b></h1>
-            </div>
+        <div class="row">
+            <div class="col">
+                <div class="container-login">
+                    <div class="img-thumbnail">
+                        <h1><b>Gastos de empleados</b></h1>
+                    </div>
 
-            <form class="card" action="">
-                <div class="container-form">
-                    <label for="username"><b>Company</b></label>
-                    <input type="text" placeholder="company name" name="username" required>
+                    <form class="card" action="">
+                        <div class="container-form">
+                            <label for="username"><b>Tipo de gasto</b></label>
+                            <select class="form-control" id="cmbOptions">
+                                <option>Aumento</option>
+                                <option>Paltillos</option>
 
-                    <label for="username"><b>Full name</b></label>
-                    <input type="text" placeholder="fullname" name="username" required>
+                            </select>
+                            <label for="username"><b>Nombre</b></label>
+                            <input type="text" placeholder="fullname" name="username" required>
 
-                    <label for="username"><b>Address</b></label>
-                    <input type="text" placeholder="address" name="username" required>
-
-
-                    <label for="username"><b>Select state</b></label>
-                    <select class="form-control" id="cmbOptions">
-                        <option>Guanajuato</option>
-                        <option>Queretaro</option>
-                        <option>Jalisco</option>
-                        <option>Michoacan</option>
-                        <option>Guerrero</option>
-                        <option value="">Sinaloa</option>
-                    </select>
-
-                    <label for="username"><b>Select city</b></label>
-                    <select class="form-control" id="cmbOptions">
-                        <option>Dolores Hidalgo</option>
-                        <option>Guanajuato</option>
-                        <option>Leon</option>
-                        <option>Silao</option>
-                        <option>Irapuato</option>
-                    </select>
+                            <label for="username"><b>Monto</b></label>
+                            <input type="text" placeholder="price" name="username" required>
 
 
-                    <label for="username"><b>Phone</b></label>
-                    <input type="number" placeholder="phone" name="username" required>
-
-                    <label for="username"><b>Postal code</b></label>
-                    <input type="number" placeholder="postal code" name="username" required>
-
-                    <button class="btn-signin" type="submit"><b>Save</b></button>
+                            <button class="btn-signin" type="submit"><b>Guardar</b></button>
+                        </div>
+                    </form>
                 </div>
-            </form>
+            </div>
+            <div class="col">
+                <div class="img-thumbnail">
+                    <h1><b>Lista de gastos</b></h1>
+                </div>
+                <div class="">
+                    <table id="table">
+                        <tr>
+                            <th>Tipo</th>
+                            <th>Nombre</th>
+                            <th>Monto</th>
+
+                        </tr>
+                        <tr>
+                            <td>Aumento</td>
+                            <td>Abigail Loviedo</td>
+                            <td>$ 100.00</td>
+                        </tr>
+                        <tr>
+                            <td>Aumento</td>
+                            <td>Carolina Arias</td>
+                            <td>$ 300.00</td>
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
         </div>
+
     </section>
 </body>
 
